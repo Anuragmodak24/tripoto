@@ -1,0 +1,238 @@
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.nava>img{
+    width: 65%;
+}
+.navb{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: white;
+
+}
+
+
+.mainbody{
+    width: 90%;
+  margin: auto;
+}
+.afr{
+    margin-top: 20px;
+}
+.hero{
+    display: flex;
+    background-image: url(https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg);
+    height: 300px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.hero>div>h1{
+    color: white;
+
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.hero>div>img{
+margin-left: -2rem;
+}
+.afr{
+    display: flex;
+
+
+}
+.afr>img{
+    width:25% ;
+}
+.des{
+display:flex;
+gap: 10px;
+margin-top: 10px;
+
+}
+.des>div>img{
+    width: 100%; 
+  height: 150px
+}
+.mid{
+    width: 90%;
+    margin: auto;
+}
+.mid>img{
+    width: 100%;
+
+}
+
+#otherb{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: auto;
+gap: 20px;
+margin-top: 20px;
+}
+#otherb>div>img{
+    width: 100%;
+    border-radius: 5px;
+    height: 150px
+}
+#mid2{
+    width:90%;
+    margin: auto;
+
+}
+#mid2>img{
+    width: 100%;
+}
+.mid2d{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+grid-template-rows: auto;
+gap: 20px;
+margin-top: 20px;
+
+}
+.mid2d>div>img{
+ 
+    width: 100%;
+    border-radius: 10px;
+}
+.mid3{
+    width: 25%;
+
+}
+.mid3>h5{
+    color: rgb(74, 74, 189);
+}
+.mid3>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#mid3main{
+    display:flex;
+    gap: 20px;
+    height: px;
+}
+.mid3logo{
+    margin-top: -2rem;
+    display: flex;
+   
+  
+}
+.mid3des>h3:nth-child(2){
+    
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.mid3des{
+    margin-top: -2rem;
+    display: flex; 
+ justify-content: space-between; 
+
+}
+.mainmay{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.mainmay>div>img{
+    width: 100%;
+}
+
+
+.aftermayjune>img{
+width: 100%;
+}
+
+.aftermayjune1{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.aftermayjune1>div>img{
+    width: 100%;
+}
+.lastcaro{
+    display: flex;
+    gap: 15px;
+}
+.lascarod>img{
+width: 100%;
+}
+.mid3desd{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mid30{
+    display: flex;
+    margin-top: -1rem;
+ 
+}
+.mid30>h6{
+    margin: auto;
+    margin-left: 1rem;
+  
+}
+.mid30>img{
+    width:15%;
+    height: 15%;
+    border-radius: 100%;
+    image-resolution: 50px;
+}
+
+.mid3desd>h3:nth-child(2){
+    border: 1px solid blue;
+}
+.lasti{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.lasti>img{
+    width: 100%;
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.end>div>img{
+    width: 100%; 
+    height: 30%;
+    
+}
+footer{
+    display: flex;
+justify-content:space-between;
+margin-top: -6.5rem;
+}
+.copy{
+    margin: auto;
+text-align: center;
+}
